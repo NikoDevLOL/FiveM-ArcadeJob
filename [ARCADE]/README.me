@@ -1,0 +1,84 @@
+Skrypt na Job Arcade, zawiera interakcje dla graczy w postaci gier oraz interakcje dla pracowników w postaci - Craftowania różnych shotów, 
+jedzenia, mini dj'ke oraz podstawy szafki/bossmenu.
+
+
+&1.0 - Dodaj to do skryptu od ox_inventory ( ox_inventory/data/shops.lua )
+
+----------------------
+
+	Arcade = {
+		   name = 'Sklep Arcade',
+		   inventory = {
+			{ name = 'arcade_token', price = 500 },
+		}, locations = {
+			vec3(740.27, -825.65, 22.69)
+		}, targets = {
+			{ loc = vec3(740.27, -825.65, 22.69), length = 1.0, width = 0.6, heading = 180.0, minZ = 19.69, maxZ = 23.69, distance = 3.0 }
+		}
+	},
+
+----------------------
+
+&2.0 - Dodaj to do skryptu od ox_inventory ( ox_inventory/data/items.lua )
+
+----------------------
+
+	['arcade_token'] = {
+		label = "Moneta Arcade",
+		weight = 5,
+		consume = 0,
+	},
+
+	['arcade_rum'] = {
+		label = "Rum",
+		weight = 100,
+		consume = 0,
+	},
+
+	['arcade_barwnik'] = {
+		label = "Barwnik E 150d",
+		weight = 5,
+		consume = 0,
+	},
+
+	['arcade_barwnik2'] = {
+		label = "Barwnik FCF E133",
+		weight = 5,
+		consume = 0,
+	},
+
+	['arcade_kwas'] = {
+		label = "Kwas fosforowy",
+		weight = 5,
+		consume = 0,
+	},
+
+	['arcade_cukier'] = {
+		label = "Cukier",
+		weight = 1000,
+		consume = 0,
+	},
+
+	['arcade_limonka'] = {
+		label = "Limonka",
+		weight = 50,
+		consume = 0,
+	},
+
+	['arcade_shot'] = {
+		label = "Shot Arcade",
+		weight = 500,
+		client = {
+			event = 'fc-arcade:arcadeShot' -- DO POPRAWY
+		}
+	},
+
+	['arcade_cola'] = {
+		label = "Arcade Cola",
+		weight = 100,
+	},
+
+	['arcade_blue_potion'] = {
+		label = "Niebieskia Mikstura",
+		weight = 500,
+	},

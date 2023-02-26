@@ -1,0 +1,24 @@
+Locales['en'] = {
+    ['not_have_items_to_create_drinks'] = 'You dont have the required items in your locker to craft this!', -- NOTIFY
+    ['not_have_items_to_play_machine'] = 'You dont have the required items to play the slot machine!', -- NOTIFY
+    ['not_have_authorized'] = 'You are not authorized to do this!', -- NOTIFY
+    ['error_create_shot'] = 'You failed to create an Arcade Shot!', -- NOTIFY
+    ['error_create_cola'] = 'You failed to create an Arcade Cola!', -- NOTIFY
+    ['error_create_mixture'] = 'You failed to create an Niebieskiej Mikstury!', -- NOTIFY
+    ['lost_machine_game'] = 'You lost token on machine', -- NOTIFY
+    ['music_on'] = 'Music on', -- NOTIFY
+    ['music_off'] = 'Music off', -- NOTIFY
+    ['incorrectly_filled'] = 'Not filled in correctly!', -- NOTIFY
+    ['none_music'] = 'Currently no song is included!', -- NOTIFY
+    ['target_change_music'] = 'Change Song', -- TARGET
+    ['target_off_music'] = 'Turn off Song', -- TARGET
+    ['target_bossmenu'] = 'Open the BossMenu', -- TARGET
+    ['target_craft_1'] = 'Produce Arcade Shot', -- TARGET
+    ['target_craft_2'] = 'Produce Arcade Cola', -- TARGET
+    ['target_craft_3'] = 'Produce Blue Potion', -- TARGET
+    ['target_open_stash'] = 'Open Stash', -- TARGET
+    ['target_play_machine'] = 'Play', -- TARGET
+    ['dj_text_1'] = 'Enter the URL of the song', -- TEXT
+    ['dj_text_2'] = 'Enter the volume (0.0, 1.0)', -- TEXT
+    ['stash_text'] = 'Arcade Stash', -- TEXT
+}

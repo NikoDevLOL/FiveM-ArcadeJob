@@ -1,0 +1,24 @@
+Locales['pl'] = {
+    ['not_have_items_to_create_drinks'] = 'Nie posiadasz potrzebnych przedmiotów w szafce aby to wytworzyć!', -- NOTIFY
+    ['not_have_items_to_play_machine'] = 'Nie posiadasz potrzebnych przedmiotów aby rozegrać grę w automacie!', -- NOTIFY
+    ['not_have_authorized'] = 'Nie jesteś do tego upoważniony!', -- NOTIFY
+    ['error_create_shot'] = 'Nie udało ci się wytworzyć Arcade Shota!', -- NOTIFY
+    ['error_create_cola'] = 'Nie udało ci się wytworzyć Arcade Cola!', -- NOTIFY
+    ['error_create_mixture'] = 'Nie udało ci się wytworzyć Niebieskiej Mikstury!', -- NOTIFY
+    ['lost_machine_game'] = 'Przegrałeś żeton na maszynie', -- NOTIFY
+    ['music_on'] = 'Włączono Muzykę', -- NOTIFY
+    ['music_off'] = 'Wyłączono Muzykę', -- NOTIFY
+    ['incorrectly_filled'] = 'Nie prawidłowo wypełniono!', -- NOTIFY
+    ['none_music'] = 'Obecnie żadna piosenka nie jest włączona!', -- NOTIFY
+    ['target_change_music'] = 'Zmień Piosenkę', -- TARGET
+    ['target_off_music'] = 'Wyłącz Piosenkę', -- TARGET
+    ['target_bossmenu'] = 'Otwórz Menu Szefa', -- TARGET
+    ['target_craft_1'] = 'Wytwórz Arcade Shot', -- TARGET
+    ['target_craft_2'] = 'Wytwórz Arcade Cola', -- TARGET
+    ['target_craft_3'] = 'Wytwórz Niebieską Miksture', -- TARGET
+    ['target_open_stash'] = 'Otwórz Szafkę', -- TARGET
+    ['target_play_machine'] = 'Zagraj', -- TARGET
+    ['dj_text_1'] = 'Wpisz URL piosenki', -- TEXT
+    ['dj_text_2'] = 'Wpisz głośność (0.0, 1.0)', -- TEXT
+    ['stash_text'] = 'Szafka Arcade', -- TEXT
+}
