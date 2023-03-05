@@ -20,7 +20,7 @@ Citizen.CreateThread(function()
 end)
 
 local blips = {
-    {title="Arcade Bar", colour=27, id=740, x = 740.27 y = -825.95 , z = 22.67} -- BLIP
+    {title="Arcade Bar", colour=27, id=740, x = 740.27, y = -825.95 , z = 22.67} -- BLIP
     }      
     Citizen.CreateThread(function()
     
